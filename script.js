@@ -15,7 +15,6 @@
 
 // 2.2- Pyramide
 // let height = prompt("Entrez la hauteur de la pyramide");
-
 // for(let i = 1; i <= height; i ++ ){
 // 	spaces = ""
 // 	hashtags = ""
@@ -27,6 +26,14 @@
 // 	}
 // 	console.log(spaces + hashtags);
 // }
+
+// Pyramid made simpler with Day's method repeat
+// let height = prompt("Entrez la hauteur de la pyramide");
+// for(let i = 1; i <= height; i ++ ){
+// 	spaces = ""
+// 	hashtags = ""
+// 	console.log(" ".repeat(height - i) + "#".repeat(i));
+// };
 
 // 3.1- Analyse 1
 // const entrepreneurs = [
