@@ -138,13 +138,54 @@
 // });
 // console.log(sortedBooks);
 
+// 4.1 ARN decoder
+composition = new Array
+let arn = "CCUCGCCGGUACUUCUCG"
+arn = arn.match(/.../g)
+
+arn.forEach(code => {
+switch (code) {
+	case "UCU":
+	case "UCC":
+	case "UCA":
+	case "UCG":
+	case "AGU":
+	case "AGC":
+		composition.push("Sérine");
+		break;
+	case "CCU":
+	case "CCC":
+	case "CCA":
+	case "CCG":
+		composition.push("Proline");
+		break;
+	case "UUA":
+	case "UUG":
+		composition.push("Leucine");
+		break;
+	case "UUU":
+	case "UUC":
+		composition.push("Phénylalanine");
+		break;
+	case "CGU":
+	case "CGC":
+	case "CGA":
+	case "CGG":
+	case "AGA":
+	case "AGG":
+		composition.push("Arginine");
+		break;
+	case "UAU":
+	case "UAC":
+		composition.push("Tyrosine");
+		break;
 
 
+	default:
+		console.log("Entrée non reconnue");
+		break;
+}})
 
-
-
-
-
-
+console.log(composition.join("-"))
 
 
