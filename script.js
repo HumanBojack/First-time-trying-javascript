@@ -71,6 +71,17 @@ entrepreneurs.forEach( entrepreneur =>{
 	console.log(`${entrepreneur.first + " " + entrepreneur.last} à (aurait eu) aujourd'hui ${2021 - entrepreneur.year} ans `)
 })
 
+sortedUsers = entrepreneurs.sort(function(a, b) {
+	if (a.last < b.last) {
+		return -1;
+	} else if (a.last > b.last){
+		return 1;
+	} else {
+		return 0;
+	}
+});
+console.log(sortedUsers) 
+
 
 
 
