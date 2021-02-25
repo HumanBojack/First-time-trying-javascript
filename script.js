@@ -139,53 +139,76 @@
 // console.log(sortedBooks);
 
 // 4.1 ARN decoder
-composition = new Array
-let arn = "CCUCGCCGGUACUUCUCG"
-arn = arn.match(/.../g)
+// composition = new Array
+// let arn = "CCUCGCCGGUACUUCUCG"
+// arn = arn.match(/.../g)
 
-arn.forEach(code => {
-switch (code) {
-	case "UCU":
-	case "UCC":
-	case "UCA":
-	case "UCG":
-	case "AGU":
-	case "AGC":
-		composition.push("Sérine");
-		break;
-	case "CCU":
-	case "CCC":
-	case "CCA":
-	case "CCG":
-		composition.push("Proline");
-		break;
-	case "UUA":
-	case "UUG":
-		composition.push("Leucine");
-		break;
-	case "UUU":
-	case "UUC":
-		composition.push("Phénylalanine");
-		break;
-	case "CGU":
-	case "CGC":
-	case "CGA":
-	case "CGG":
-	case "AGA":
-	case "AGG":
-		composition.push("Arginine");
-		break;
-	case "UAU":
-	case "UAC":
-		composition.push("Tyrosine");
-		break;
+// arn.forEach(code => {
+// switch (code) {
+// 	case "UCU":
+// 	case "UCC":
+// 	case "UCA":
+// 	case "UCG":
+// 	case "AGU":
+// 	case "AGC":
+// 		composition.push("Sérine");
+// 		break;
+// 	case "CCU":
+// 	case "CCC":
+// 	case "CCA":
+// 	case "CCG":
+// 		composition.push("Proline");
+// 		break;
+// 	case "UUA":
+// 	case "UUG":
+// 		composition.push("Leucine");
+// 		break;
+// 	case "UUU":
+// 	case "UUC":
+// 		composition.push("Phénylalanine");
+// 		break;
+// 	case "CGU":
+// 	case "CGC":
+// 	case "CGA":
+// 	case "CGG":
+// 	case "AGA":
+// 	case "AGG":
+// 		composition.push("Arginine");
+// 		break;
+// 	case "UAU":
+// 	case "UAC":
+// 		composition.push("Tyrosine");
+// 		break;
 
 
-	default:
-		console.log("Entrée non reconnue");
-		break;
-}})
+// 	default:
+// 		console.log("Entrée non reconnue");
+// 		break;
+// }})
 
-console.log(composition.join("-"))
+// console.log(composition.join("-"))
+
+// 4.2 Teenager bot
+
+// message = prompt("Tu veux quoi ?")
+
+// if (message.slice(-1) === "?"){
+// 	console.log("Ouais ouais ...");
+// } else if (message.length === 0 ){
+// 	console.log("Eh j'ai juré réveille toi");
+// } else if (message === message.toUpperCase()){
+// 	console.log("Calme toi boloss jrigole pas avec toi");
+// } else if (message.indexOf("fortnite") != -1){
+// 	console.log("Ptite game là ?");
+// } else {
+// 	console.log("Balek")
+// }
+
+
+
+
+
+
+
 
 
